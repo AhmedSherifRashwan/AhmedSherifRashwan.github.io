@@ -1,93 +1,136 @@
-/* Download CV Button CSS*/
-.button {
-  background-color: #4CAF50; /* Green */
+#Introduction{
+  background: #0A192F;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+  padding: 15%;
+}
+
+#TitleName{
+  font-size: 60px;
+  font-family: 'Anton';
+}
+
+#TitleDesc{
+  font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#typing-text {
+  background-color: #000000;
+  font-size: 24px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+#clickMe{
+  background-color: transparent;
+  border: 0;
+  color: #e9edf0;
+  margin-top: 1%;
+}
+
+#whoami-wrapper{
+  background-color: #C8D6E5;
+  padding: 10%;
+  font-family: 'Patrick Hand', cursive;
+}
+
+p{
+  font-size: 24px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+h1{
+  font-size: 36pt;
+  font-weight: 800;
+}
+
+#BookMe{
+  background-color: #004346;
+  padding: 10%;
+  color: #FFFFFF;
+}
+
+.book-me-button {
+  background-color: #10565a; 
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 10px;
+  border-radius: 5px;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  width: 250px;
+}
+
+.book-me-button:hover {
+  background-color: #1e777c; 
+  color: #FFFFFF;
 }
 
 
-.button2:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+#bookMe-text{
+  font-size: 16pt;
 }
 
-/*dark mode button css*/
-.switch {
-  position: relative;
+
+.technologies {
+  margin: 20px 0;
+  padding: 3%;
+}
+
+.technologies h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.technologies ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.technologies li {
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  margin: 10px;
+  font-size: 1.2em;
 }
 
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+.technologies i {
+  font-size: 2em;
+  margin-right: 10px;
 }
 
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+#FunApiProjects{
+  background-color: #008080;
+  padding: 5%;
+  
 }
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+#FunApiProjects-h1{
+  text-align: center;
+  margin-bottom: 80px;
+  color: #FFFFFF;
 }
-
-input:checked + .slider {
-  background-color: #2196F3;
+#PreviousTalks{
+  background-color: #ffffff;
+  padding: 10%;
 }
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+#PreviousTalksLink{
+  text-decoration: none;
+  color: #e9edf0;
 }
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-
-/*css for dark mode*/
-.dark-mode {
-  background-color: #121212;
-  color: white;
-}
-
-/* Thick grey border */
-hr.new4 {
-  border: 2px solid grey;
+#PreviousTalksLink:hover{
+  text-decoration: none;
+  color: auto;
 }
